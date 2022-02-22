@@ -444,7 +444,7 @@ header .navbar a:hover{
     }
     
     section{
-        padding:2rem;
+        padding:3rem;
     }
 
     header{
@@ -604,4 +604,30 @@ header .navbar a:hover{
 
 .skills .row .progress .bar-2-3 span{
     width: 65%;
+}
+
+
+#preloader {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:rgb(0, 0, 0); /* change if the mask should have another color then white */
+    z-index:99999; /* makes sure it stays on top */
+}
+#status {
+    width:100px;
+    height:100px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url("../images/loader.gif");
+    z-index:9999; /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    margin:-50px 0 0 -50px; /* is width and height divided by two */
 }
