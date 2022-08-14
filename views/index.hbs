@@ -228,12 +228,7 @@
                 </div>
             </div>
 
-            {{!-- <div class="content">
-                <h3>my name is <span>shaikh anas</span></h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil hic eum magnam, ea nulla sit cumque
-                    explicabo dolorem illo itaque?</p>
-                <a href="#" class="btn">contact me</a>
-            </div> --}}
+         
 
         </div>
 
@@ -259,8 +254,8 @@
                 <div class="bar bar-2-3"><span></span></div>
                 <h3> Node JS <span>75%</span> </h3>
                 <div class="bar bar-1-2"><span></span></div>
-                <h3> Express JS <span>80%</span> </h3>
-                <div class="bar bar-2-2"><span></span></div>
+                <h3> Express JS <span>65%</span> </h3>
+                <div class="bar bar-2-3"><span></span></div>
                 <h3> Mongo DB <span>75%</span> </h3>
                 <div class="bar bar-1-2"><span></span></div>
                 <h3> Rest API <span>65%</span> </h3>
@@ -285,16 +280,16 @@
                 <img class="tilt" src="../images/contact-img.svg" alt="">
             </div>
 
-            <form action="/" method="POST">
+            <form method="POST" action="/">
 
                 <div class="inputBox">
-                    <input type="text" placeholder="name" name="name">
-                    <input type="email" placeholder="email" name="email">
+                    <input type="text" placeholder="name" name="name" id="name">
+                    <input type="email" placeholder="email" name="email" id="email">
                 </div>
 
-                <input type="text" placeholder="subject" class="box" name="subject">
+                <input type="text" placeholder="subject" class="box" name="subject" id="subject">
 
-                <textarea placeholder="message" name="message" id="" cols="30" rows="10"></textarea>
+                <textarea placeholder="message" name="message" cols="30" rows="10" id="message"></textarea>
 
                 <input type="submit" class="btn" value="send message">
 
@@ -354,6 +349,8 @@
             $('body').delay(50).css({ 'overflow': 'visible' });
         })
     </script>
+    
+   
 </body>
 
 </html>
